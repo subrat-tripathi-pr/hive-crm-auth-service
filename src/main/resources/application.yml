@@ -3,8 +3,8 @@ spring:
     name: auth-service
   data:
     mongodb:
-      host: localhost
-      port: 27017
-      database: auth-service
-      username: admin
-      password: admin123
+      host: ${DB_HOST:localhost}
+      port: ${DB_PORT:27017}
+      database: hive-crm
+      username: ${DB_USER}
+      password: ${DB_PASSWORD}

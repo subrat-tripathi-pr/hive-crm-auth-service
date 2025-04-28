@@ -1,12 +1,12 @@
 package com.hivecrm.auth.service;
 
-import com.hivecrm.auth.domain.member.AuthRequest;
-import com.hivecrm.auth.domain.member.AuthResponse;
-import com.hivecrm.auth.domain.member.RegisterRequest;
-import com.hivecrm.auth.domain.member.Role;
-import com.hivecrm.auth.domain.member.User;
+import com.hivecrm.auth.dto.AuthRequest;
+import com.hivecrm.auth.dto.AuthResponse;
+import com.hivecrm.auth.dto.RegisterRequest;
+import com.hivecrm.auth.dto.Role;
+import com.hivecrm.auth.dto.User;
 import com.hivecrm.auth.mapper.UserMapper;
-import com.hivecrm.auth.model.dao.UserEntity;
+import com.hivecrm.auth.model.UserEntity;
 import com.hivecrm.auth.repository.UserRepository;
 import com.hivecrm.auth.util.JwtUtil;
 import org.springframework.security.authentication.AuthenticationManager;

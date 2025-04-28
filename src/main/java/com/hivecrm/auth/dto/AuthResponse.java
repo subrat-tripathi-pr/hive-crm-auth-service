@@ -1,4 +1,4 @@
-package com.hivecrm.auth.domain.member;
+package com.hivecrm.auth.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

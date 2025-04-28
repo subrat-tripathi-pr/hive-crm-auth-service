@@ -1,6 +1,6 @@
 package com.hivecrm.auth.service;
 
-import com.hivecrm.auth.model.dao.UserEntity;
+import com.hivecrm.auth.model.UserEntity;
 import com.hivecrm.auth.repository.UserRepository;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;

@@ -1,8 +1,8 @@
 package com.hivecrm.auth.mapper;
 
-import com.hivecrm.auth.domain.member.RegisterRequest;
-import com.hivecrm.auth.domain.member.User;
-import com.hivecrm.auth.model.dao.UserEntity;
+import com.hivecrm.auth.dto.RegisterRequest;
+import com.hivecrm.auth.dto.User;
+import com.hivecrm.auth.model.UserEntity;
 import org.mapstruct.Mapper;
 
 @Mapper(componentModel = "spring")

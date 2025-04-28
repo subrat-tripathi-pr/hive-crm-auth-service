@@ -1,4 +1,4 @@
-package com.hivecrm.auth.model.dao;
+package com.hivecrm.auth.model;
 
 import lombok.Data;
 import org.springframework.data.annotation.Id;
@@ -25,8 +25,4 @@ public class UserEntity {
     private int loginAttempts;
     private String provider;
     private Profile profile;
-
-    public static class Profile {
-        private String fullName;
-    }
 }

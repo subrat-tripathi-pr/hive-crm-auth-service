@@ -1,6 +1,6 @@
 package com.hivecrm.auth.repository;
 
-import com.hivecrm.auth.model.dao.UserEntity;
+import com.hivecrm.auth.model.UserEntity;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
