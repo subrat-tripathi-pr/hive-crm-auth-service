@@ -14,4 +14,5 @@ public class UserProfile {
     private String phone;
     private String dateOfBirth;
     private String socialMedia;
+    private String imageUrl;
 }

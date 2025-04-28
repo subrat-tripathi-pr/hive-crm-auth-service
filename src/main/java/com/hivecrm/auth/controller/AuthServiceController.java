@@ -33,4 +33,9 @@ public class AuthServiceController {
         return ResponseEntity.status(HttpStatus.CREATED)
                 .body(new RegisterResponse(true, "User registered successfully"));
     }
+
+    @PostMapping("/logout")
+    public void logout() {
+        return ;
+    }
 }

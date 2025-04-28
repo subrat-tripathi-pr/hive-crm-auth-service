@@ -33,4 +33,14 @@ public class UserProfileService {
                 .map(userProfileMapper::map)
                 .orElse(new UserProfile());
     }
+
+    public void updateProfilePic(String userId, String filename) {
+        UserEntity userEntity = userRepository.findByUsername(userId).orElseThrow();
+
+        Profile profile = userEntity.getProfile();
+        profile.setImageFileName(filename);
+        userEntity.setProfile(profile);
+
+        userRepository.save(userEntity);
+    }
 }
